@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Project</title>
+  </head>
+  <body>
+    <header>
+      <h1>Atlantica</h1>
+      <p>The City of Ocean Dreams!</p>
+      <nav>
+        <a href="#cityDescription">Description</a>
+        <a href="#attractions">Attractions</a>
+        <a href="#cityStatistics">Statistics</a>
+        <a href="#feedback">Feedback</a>
+        <a href="#quotes">Quotes</a>
+        <a href="#contact">Contact</a>
+        <a href="#footer">Footer</a>
+      </nav>
+    </header>
+    <main>
+      <section id="cityDescription">
+        <h2>Discover Atlantica</h2>
+        <img
+          src="https://images.pexels.com/photos/18303333/pexels-photo-18303333/free-photo-of-a-beach-with-flowers-and-a-sun-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="Beach Image"
+        />
+      </section>
+      <section id="attractions">
+        <h2>Attractions</h2>
+        <h3>Main Attractions</h3>
+        <ol>
+          <li>Atlantis Tower</li>
+          <li>Deep Sea Museum</li>
+          <li>The Oceanic Bridge</li>
+        </ol>
+        <h3>Local Favourites</h3>
+        <ul>
+          <li>Mermon's Street</li>
+          <li>Neptune's Diner</li>
+          <li>Atlantica Beaches</li>
+          <ul>
+            <li>North Beaches</li>
+            <li>Reef Bay</li>
+            <li>Mermaid Cove</li>
+          </ul>
+        </ul>
+      </section>
+      <section id="cityStatistics">
+        <h2>City Statistics</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Attribute</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Population</td>
+              <td>5 Million</td>
+            </tr>
+            <tr>
+              <td>Landmarks</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <td>Parks</td>
+              <td>18</td>
+            </tr>
+            <tr>
+              <td>Schoold</td>
+              <td>120</td>
+            </tr>
+            <tr>
+              <td>Beaches</td>
+              <td>7</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="feedback">
+        <h2>Feedback</h2>
+        <form action="/">
+          <label for="fname">Name:</label>
+          <input id="fname" type="text" required /> <br />
+          <label for="email">Email:</label>
+          <input id="email" type="email" required /> <br />
+          <label for="age">Age:</label>
+          <input id="age" type="number" required /> <br />
+          <label for="favourite">Favourites Attractions:</label>
+          <select name="favourite" id="favourite">
+            <option value="Deep">Deep Sea Museum</option>
+            <option value="Sea">Deep Sea Museum</option>
+            <option value="Museum">Deep Sea Museum</option>
+            <option value="Museum2">Deep Sea Museum</option>
+          </select>
+          <br />
+          <label for="comments">Comments:</label>
+          <textarea name="comments" id="comments"></textarea>
+          <br />
+          <label for="newsLetter">News Letter:</label>
+          <input type="radio" name="choose" id="newsLetter" />
+          <span>Subscribe to our news letter</span>
+          <br />
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+      <section id="quotes">
+        <h2>What citizen Say</h2>
+        <p>'Atlantica Beaches are paradise' - Alex</p>
+        <p>'Atlantica Beaches are paradise' - Isabelle</p>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Atlantica Tourism Office</p>
+        <p>100 Ocean Drice, Atlantica</p>
+        <p>Email: <a href="">info@atlantica.com</a></p>
+        <p>Phone: 123-456-7890</p>
+      </section>
+      <footer id="footer">
+        <p>© 2023 Atlantica Tourism. Dive into Dreams!</p>
+      </footer>
+    </main>
+  </body>
+</html>
